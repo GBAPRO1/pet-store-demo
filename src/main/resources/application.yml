@@ -2,7 +2,7 @@ spring:
   datasource:
     platform: postgres
     url: jdbc:${postgresql://postgres:1234@localhost:5432/postgres}
-    username: ${POSTGRES_USER}
+    username: ${postgres}
     password: ${atradius}
   jpa:
     generate-ddl: true
